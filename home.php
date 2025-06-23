@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"> <!-- the language of the document (English) -->
-
+<!-- page uses rendering -->
 <head>
     <meta charset="UTF-8"> <!-- character encoding for the document-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- page uses rendering mode in Internet Explorer -->
