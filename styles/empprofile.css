@@ -1,0 +1,75 @@
+/* User Details */
+.user-details {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.user-details span {
+    font-size: 1.2em;
+}
+
+#editProf {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+#editProf:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* User Table */
+.user-table {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.user-table h2 {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-style th, .table-style td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-style th {
+    background-color: #f4f4f4;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}

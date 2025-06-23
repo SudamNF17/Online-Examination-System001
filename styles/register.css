@@ -1,0 +1,137 @@
+/* Styles for the registration form container */
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    width: 600px;
+    margin: 100px auto;
+    background-color: #f5f7fa; /* Softer background color */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .3);
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+/* Hover styles for the registration form container */
+.register:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .4);
+}
+
+.register form {
+    max-width: 500px;
+}
+
+/* Styles for input types */
+.register input[type="text"],
+.register input[type="email"],
+.register input[type="tel"],
+.register textarea,
+.register input[type="date"],
+.register input[type="password"],
+.register select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus effect for inputs */
+.register input:focus,
+.register select:focus,
+.register textarea:focus {
+    border-color: #0078d7;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+}
+
+/* Styles for select input type */
+.register select {
+    display: block;
+    width: 104%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Styles for radio button */
+.register input[type="radio"] {
+    margin-right: 10px;
+}
+
+.register label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.register p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.register a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #005a9e;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.register a:hover {
+    color: #d9534f;
+    font-size: 18px;
+}
+
+/* Styles for the checkbox */
+.register input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Styles for submit button */
+.register input[type="submit"] {
+    display: block;
+    width: 104%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background-color: #0078D7; /* Button color */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s;
+}
+
+/* Hover styles for submit button */
+.register input[type="submit"]:hover {
+    background-color: #005a9e;
+    transform: translateY(-2px);
+}
+
+/* Disabled styles for submit button */
+.register input[type="submit"]:disabled {
+    background-color: #a8a8a8;
+    cursor: not-allowed;
+}
+
+/* Styles for the error message */
+.error-msg {
+    margin: 10px 0;
+    padding: 10px;
+    background: #d9534f;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.user-details {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.user-details span {
+  font-size: 1.2em;
+}
+
+#editProf {
+  float: right;
+  text-decoration: none;
+  background-color: #5bc0de;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.exam-table, .result-table {
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+.table-style {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-style th, .table-style td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-style th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.table-style tr:hover {
+  background-color: #f5f5f5;
+}
+
+.add-exam-btn, .update-btn, .delete-btn {
+  background-color: #5bc0de;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.add-exam-btn {
+  margin-bottom: 20px;
+}
+
+.add-exam-btn:hover, .update-btn:hover, .delete-btn:hover {
+  background-color: #31b0d5;
+}

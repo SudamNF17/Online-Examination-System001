@@ -1,0 +1,100 @@
+/* Styling for the result table container */
+.result-table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-table h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for the add results button */
+.add-exam-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.add-exam-btn:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the table */
+.table-style {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-style th, .table-style td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.table-style th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table-style tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling for buttons */
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background-color: #008CBA;
+    color: white;
+}
+
+.update-btn:hover {
+    background-color: #007bb5;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #d11a2a;
+}
+
+/* Styling for the links inside buttons */
+button a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+button a:hover {
+    color: white;
+}
+
+/* Confirmation message styling */
+button a:hover {
+    color: white;
+}

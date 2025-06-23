@@ -1,0 +1,112 @@
+/* Style for the exam registration form container */
+.registration-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form heading */
+.registration-container h2 {
+    text-align: center;
+    color: #5d2020;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.registration-container label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Input fields */
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="date"],
+.registration-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit button */
+.registration-container input[type="submit"] {
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Submit button hover effect */
+.registration-container input[type="submit"]:hover {
+    background-color: #164a22;
+}
+
+/* Placeholder text style */
+.registration-container input::placeholder {
+    color: #999;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .registration-container {
+        width: 90%;
+    }
+}
+
+/* Container for the animated box */
+.animation-box {
+    width: 100%;
+    height: 150px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* Animation for the exam list (sliding effect) */
+.exam-list {
+    display: flex;
+    animation: slide 20s linear infinite;
+    white-space: nowrap;
+}
+
+/* Individual exam block style */
+.exam-item {
+    padding: 20px;
+    margin: 0 15px;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+    min-width: 200px;
+}
+
+/* Keyframes for sliding animation */
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

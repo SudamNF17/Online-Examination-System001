@@ -1,0 +1,105 @@
+/* Styles for the banner section */
+/*Styles for the background image in index page*/
+.banner-index{
+    width: 100%;
+    height: 100vh;
+    background-image:
+    
+    url('../images/img1.png');
+    background-size: cover;
+    background-position: center;
+    animation: transitionIn 0.75s;
+  }
+  
+  /* Styles for the welcome section */
+  .section {
+    padding: 20px 10%; /* Padding for the section */
+    background-color: #f4f4f4; /* Light background color */
+    text-align: center; /* Center text */
+  }
+  
+  /* Styles for headings */
+  .heading {
+    font-size: 32px; /* Font size for headings */
+    color: #333; /* Dark text color */
+    margin: 20px 0; /* Margin around headings */
+  }
+  
+  /* Styles for the available exams section */
+  .available-exams {
+    padding: 20px 5%; /* Padding for the exams section */
+  }
+  
+  /* Styles for the box container */
+  .box-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Space between boxes */
+  }
+  
+  /* Styles for each exam box */
+  .box {
+    background: white; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    width: 30%; /* Width of each box */
+    margin: 10px 0; /* Margin around boxes */
+    padding: 15px; /* Padding inside boxes */
+    text-align: center; /* Center text in boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  
+  
+  /* Styles for buttons */
+  .btn {
+    display: inline-block; /* Display as block */
+    background: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding for button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* No underline */
+    margin-top: 10px; /* Margin above button */
+  }
+  
+  /* Styles for the location section */
+  .location {
+    background-color: #eaeaea; /* Light gray background */
+    padding: 20px; /* Padding for the section */
+    text-align: center; /* Center text */
+  }
+  
+  /* Styles for the map */
+  .map {
+    margin-top: 20px; /* Margin above the map */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .box {
+      width: 45%; /* Adjust width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .box {
+      width: 100%; /* Full width on mobile screens */
+    }
+  
+    .heading {
+      font-size: 28px; /* Smaller heading size */
+    }
+  }
+
+  /* Hover styles for the boxes */
+.available-exams .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.03);
+  }
+  
+  /* Hover styles for the box buttons */
+  .available-exams .box-container .box .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+  }
+  
